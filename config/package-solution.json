@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "demos-voitanos-client-side-solution",
+    "id": "dd664f2d-4398-47b9-91fe-6d0b2e9f536b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "demos-voitanos description"
+      },
+      "longDescription": {
+        "default": "demos-voitanos description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "demos-voitanos Feature",
+        "description": "The feature that activates elements of the demos-voitanos solution.",
+        "id": "66f8257f-58e4-4494-b6c6-6cee8d85485c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/demos-voitanos.sppkg"
+  }
+}
